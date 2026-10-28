@@ -19,8 +19,7 @@ Models were compared on **Macro F1**, with recall on A (VIP) and B (potential VI
 Eight tables provided for the course: 회원정보 (member) · 신용정보 (credit) · 승인매출정보 (approved sales) · 청구입금정보 (billing and payment) · 잔액정보 (balance) · 채널정보 (channel) · 마케팅정보 (marketing) · 성과정보 (performance).
 
 Duplicate columns shared across tables (such as `기준년월`) were dropped, and the tables were left-joined on `ID` into a 400,000 × 856 table.
-Column definitions are in `데이터명세.xlsx`. The raw data is not included in this repository.
-
+Column definitions are in `데이터명세.xlsx`.
 ## Approach
 
 **Preprocessing**
