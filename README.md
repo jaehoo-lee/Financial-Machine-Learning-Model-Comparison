@@ -79,6 +79,8 @@ Segment-level strategy suggested by the model: retain A (churn prevention, premi
 
 ## Files
 
+Notebooks are kept as submitted for the course.
+
 | File | Description |
 |---|---|
 | `train_merged.ipynb` | Table merging and EDA |
@@ -91,7 +93,10 @@ Segment-level strategy suggested by the model: retain A (churn prevention, premi
 
 ## My contributions
 
-- TODO
+- Led most of the preprocessing pipeline: table merging, structural missing-value handling, transformations, and removal of correlated features
+- Built and tuned the CatBoost and LightGBM models, including the final Optuna-tuned CatBoost
+
+Part of the commit history is missing because feature branches were deleted after merging.
 
 ## Environment
 
